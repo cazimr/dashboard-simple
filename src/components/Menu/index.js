@@ -2,21 +2,15 @@ import React, { useEffect, useState } from "react";
 import * as style from "./style";
 import createMenu from "./createMenu";
 import menuData from "../../shared/menu.json";
+import { useMenuContext } from "../../context/useMenuContext";
 
 const Menu = () => {
-	console.log("MENU DATA",menuData);
+	const {showMenu} = useMenuContext();
 	const [menuList, setMenuList] = useState();
 	useEffect(() => {
 		setMenuList(createMenu(menuData));
 	}, [setMenuList]);
-	return (
-		<style.MenuContainer>
-			<style.IconContainer>
-				<style.Icon />
-			</style.IconContainer>
-			{!!menuList && <style.MenuList>{menuList}</style.MenuList>}
-		</style.MenuContainer>
-	);
+	return <style.MenuContainer show={showMenu}>{!!menuList && <style.MenuList>{menuList}</style.MenuList>}</style.MenuContainer>;
 };
 
 export default Menu;

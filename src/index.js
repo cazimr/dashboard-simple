@@ -5,16 +5,19 @@ import theme from "./theme";
 import "./index.css";
 import Layout from "./components/Layout";
 import { Provider as SidebarProvider } from "./context/useSidebarContext";
+import { Provider as MenuProvider } from "./context/useMenuContext";
 import MainPage from "./views/MainPage";
 
 const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
-			<SidebarProvider>
-				<Layout>
-					<MainPage />
-				</Layout>
-			</SidebarProvider>
+			<MenuProvider>
+				<SidebarProvider>
+					<Layout>
+						<MainPage />
+					</Layout>
+				</SidebarProvider>
+			</MenuProvider>
 		</ThemeProvider>
 	);
 };

@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import { MenuOutlined } from "@ant-design/icons";
+
 
 export const MenuContainer = styled.div`
-	display: flex;
+	display: ${({show})=> show ? 'flex': 'none'};
+	height: 100%;
 	box-sizing: border-box;
 	flex-direction: column;
 	align-items: center;
@@ -11,24 +12,10 @@ export const MenuContainer = styled.div`
 	border-top: 0;
 	background: ${({ theme }) => theme.colors.primary};
 	width: ${({ theme }) => theme.dims.menuWidth};
-	height: 100%;
+	
 `;
 
-export const IconContainer = styled.div`
-	display: flex;
-	justify-content: center;
-	box-sizing: border-box;
-	border-bottom: ${({theme})=>theme.dims.border};
-	align-items: center;
-	width: 100%;
-	height: ${({ theme }) => theme.dims.headerHeight};
-	background: ${({ theme }) => theme.colors.primaryLight};
-`;
 
-export const Icon = styled(MenuOutlined)`
-	color: white;
-	font-size: 2.2em;
-`;
 
 export const MenuList = styled.ul`
 	display: flex;
@@ -50,10 +37,12 @@ export const MenuItem = styled.li`
 	border-right: ${({theme})=>theme.dims.border};
 	border-bottom: ${({theme})=>theme.dims.border};
 	background: ${({ theme }) => theme.colors.primary};
-
 	&:hover {
 		background: ${({ theme }) => theme.colors.primaryLight};
 	}
+	-webkit-user-select:none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 `;
 
 export const SubMenuItem = styled(MenuItem)``;

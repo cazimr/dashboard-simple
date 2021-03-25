@@ -4,17 +4,18 @@ import Menu from "../Menu";
 import Sidebar from "../Sidebar";
 import * as style from "./style";
 
+
 const Layout = ({ children }) => {
 	return (
 		<style.MainContainer>
-			<Menu />
-			<style.FlexColumn>
-				<Header />
-				<style.ContentContainer>
-					<Sidebar/>
+			<Header />
+			<style.FlexRow>
+				<Menu/>
+ 				<style.ContentContainer>
+					<Sidebar />
 					{children}
-				</style.ContentContainer>
-			</style.FlexColumn>
+				</style.ContentContainer> 
+			</style.FlexRow>
 		</style.MainContainer>
 	);
 };

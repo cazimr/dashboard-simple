@@ -6,7 +6,13 @@ const theme = {
     },
     fonts:{
         primary: 'Arial, Helvetica, sans-serif'
+    },
+    dims:{
+        headerHeight: '3.8em',
+        menuWidth: '3.8em',
+        border: '1px solid black'
     }
+    
 }
 
 export default theme;

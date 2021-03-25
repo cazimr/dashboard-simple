@@ -7,7 +7,7 @@ export const MainContainer = styled.div`
     width:21.5em;
     height: 6em;
 	width: ${({width})=> width ? width: "21.5em"};
-	height: ${({height})=> {console.log("HEIGHT",height); return height ? height: "6em";}};
+	height: ${({height})=> height ? height: "6em"};
     background: ${({color,theme})=>color ? color: theme.colors.primary};
     border: ${({theme})=>theme.dims.border};
 `;

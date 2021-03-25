@@ -5,12 +5,15 @@ import theme from "./theme";
 import "./index.css";
 import Layout from "./components/Layout";
 import { Provider as SidebarProvider } from "./context/useSidebarContext";
+import MainPage from "./views/MainPage";
 
 const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<SidebarProvider>
-				<Layout>Tekst</Layout>
+				<Layout>
+					<MainPage />
+				</Layout>
 			</SidebarProvider>
 		</ThemeProvider>
 	);

@@ -11,7 +11,7 @@ export const SidebarContainer = styled.div`
 	position: fixed;
 	margin-left: ${({ showSidebar }) => (showSidebar ? "76%" : "100%")};
 	width: 22%;
-	background: #bfbfbf;
+	background: #E4E2E2;
     transition: all 0.5s ease-in;
     border: ${({theme})=>theme.dims.border};
     border-top: 0;

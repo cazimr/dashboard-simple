@@ -1,15 +1,19 @@
 import React from "react";
 import Header from "../Header";
 import Menu from "../Menu";
+import Sidebar from "../Sidebar";
 import * as style from "./style";
 
 const Layout = ({ children }) => {
 	return (
 		<style.MainContainer>
-            <Menu/>
+			<Menu />
 			<style.FlexColumn>
 				<Header />
-				<style.ContentContainer>{children}</style.ContentContainer>
+				<style.ContentContainer>
+					<Sidebar/>
+					{children}
+				</style.ContentContainer>
 			</style.FlexColumn>
 		</style.MainContainer>
 	);

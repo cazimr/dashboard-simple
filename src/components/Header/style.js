@@ -38,4 +38,7 @@ export const Button = styled.button`
     &:hover{
         background: ${({theme})=>theme.colors.primaryLight};
     }
+    &:focus{
+        outline:0;
+    }
 `;

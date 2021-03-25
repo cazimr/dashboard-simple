@@ -1,0 +1,234 @@
+[
+	{
+		"title": "M1",
+		"key": "M1",
+		"submenus": [
+			{
+				"title": "Submenu 1",
+				"key": "M1S1"
+			},
+			{
+				"title": "Submenu 2",
+				"key": "M1S2"
+			},
+			{
+				"title": "Submenu 3",
+				"key": "M1S3",
+                "submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M1S3SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M1S3SS2"
+					},
+					{
+						"title": "SubSubmenu 3",
+						"key": "M1S3SS3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "M2",
+		"key": "M2",
+		"submenus": [
+			{
+				"title": "Submenu 1",
+				"key": "M2S1",
+				"submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M2S1SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M2S1SS2"
+					},
+					{
+						"title": "SubSubmenu 3",
+						"key": "M2S1SS3"
+					}
+				]
+			},
+			{
+				"title": "Submenu 2",
+				"key": "M2S2"
+			},
+			{
+				"title": "Submenu 3",
+				"key": "M2S3",
+				"submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M2S3SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M2S3SS2"
+					},
+					{
+						"title": "SubSubmenu 3",
+						"key": "M2S3SS3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "M3",
+		"key": "M3",
+		"submenus": [
+			{
+				"title": "Submenu 1",
+				"key": "M3S1",
+				"submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M3S1SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M3S1SS2"
+					}
+				]
+			},
+			{
+				"title": "Submenu 2",
+				"key": "M2S2",
+				"submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M3S2SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M3S2SS2"
+					}
+				]
+			},
+			{
+				"title": "Submenu 3",
+				"key": "M3S3"
+			}
+		]
+	},
+	{
+		"title": "M4",
+		"key": "M4",
+		"submenus": [
+			{
+				"title": "Submenu 1",
+				"key": "M4S1",
+				"submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M4S1SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M4S1SS2"
+					},
+					{
+						"title": "SubSubmenu 3",
+						"key": "M4S1SS3"
+					}
+				]
+			},
+			{
+				"title": "Submenu 2",
+				"key": "M4S2"
+			},
+			{
+				"title": "Submenu 3",
+				"key": "M4S3",
+				"submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M4S3SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M4S3SS2"
+					},
+					{
+						"title": "SubSubmenu 3",
+						"key": "M4S3SS3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "M5",
+		"key": "M5",
+		"submenus": [
+			{
+				"title": "Submenu 1",
+				"key": "M5S1"
+			},
+			{
+				"title": "Submenu 2",
+				"key": "M5S2"
+			},
+			{
+				"title": "Submenu 3",
+				"key": "M5S3"
+			}
+		]
+	},
+	{
+		"title": "M6",
+		"key": "M6",
+		"submenus": [
+			{
+				"title": "Submenu 1",
+				"key": "M6S1",
+				"submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M6S1SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M6S1SS2"
+					}
+				]
+			},
+			{
+				"title": "Submenu 2",
+				"key": "M6S2",
+				"submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M6S2SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M6S2SS2"
+					}
+				]
+			},
+			{
+				"title": "Submenu 3",
+				"key": "M6S3",
+				"submenus": [
+					{
+						"title": "SubSubmenu 1",
+						"key": "M6S3SS1"
+					},
+					{
+						"title": "SubSubmenu 2",
+						"key": "M6S3SS2"
+					},
+					{
+						"title": "SubSubmenu 3",
+						"key": "M6S3SS3"
+					}
+				]
+			}
+		]
+	}
+]

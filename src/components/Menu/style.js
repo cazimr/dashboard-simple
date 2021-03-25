@@ -98,3 +98,10 @@ export const ItemContent = styled.div`
 	font-family: ${({ theme }) => theme.fonts.textPrimary};
 	font-size: 15px;
 `;
+
+export const ExpandableItemCont = styled.div`
+	display: flex;
+	justify-content: flex-end;
+	flex-grow: 1;
+	padding-right: 0.68em;
+`;

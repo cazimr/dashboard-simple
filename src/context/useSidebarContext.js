@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 
-export const Context = createContext({});
+const Context = createContext({});
 
 
 export const Provider = (props) => {
@@ -16,6 +16,6 @@ export const Provider = (props) => {
   return <Context.Provider value={context}>{children}</Context.Provider>;
 };
 
-export const { Consumer } = Context;
+
 
 export const useSidebarContext = () => useContext(Context);

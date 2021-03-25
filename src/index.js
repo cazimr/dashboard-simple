@@ -4,11 +4,14 @@ import { ThemeProvider } from "styled-components";
 import theme from "./theme";
 import "./index.css";
 import Layout from "./components/Layout";
+import { Provider as SidebarProvider } from "./context/useSidebarContext";
 
 const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
-			<Layout>Tekst</Layout>
+			<SidebarProvider>
+				<Layout>Tekst</Layout>
+			</SidebarProvider>
 		</ThemeProvider>
 	);
 };
